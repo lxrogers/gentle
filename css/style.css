@@ -1,0 +1,64 @@
+html {
+	background-color: #000;
+	color: #FFF;
+	height:100%;
+
+}
+body {
+	color: #FFF;
+	height:100%;
+}
+
+.splash {
+	
+}
+
+.video-section {
+	height:100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.youtube-container {
+	position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 60%;
+}
+
+.youtube-container iframe {
+	position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.overlay-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.section-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background: url(../images/diagonals.png) repeat rgba(0,0,0,.7);
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	z-index: 10;
+}
+
+@media (min-width: 100px) {
+}
+
+@media (min-width: 1000px) {
+	
+}
+
